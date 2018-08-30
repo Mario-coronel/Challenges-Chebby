@@ -5,14 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ClimaList">
-
-    <Button
-        android:id="@+id/btn_fetch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="fetchData"
-        android:text="Fetch Data" />
+    tools:context=".main.ClimaList">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/clima_list"
